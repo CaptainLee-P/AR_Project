@@ -1,0 +1,255 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'ko' Physical Memory: 32577 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/HyunSeung/Documents/AR_Project
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+53424
+Successfully changed project path to: C:/Users/HyunSeung/Documents/AR_Project
+C:/Users/HyunSeung/Documents/AR_Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [32388] Host "[IP] 220.149.156.12 [Port] 0 [Flags] 2 [Guid] 3349425691 [EditorId] 3349425691 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M8RDL43) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [32388] Host "[IP] 220.149.156.12 [Port] 0 [Flags] 2 [Guid] 3349425691 [EditorId] 3349425691 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M8RDL43) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 107.33 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 2.48 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/HyunSeung/Documents/AR_Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6800 XT (ID=0x73bf)
+    Vendor:   ATI
+    VRAM:     16338 MB
+    Driver:   31.0.14051.5006
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56016
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006804 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 97.00 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.638 seconds
+Domain Reload Profiling:
+	ReloadAssembly (638ms)
+		BeginReloadAssembly (76ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (460ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (98ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (287ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (60ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (97ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (87ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011123 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\HyunSeung\Documents\AR_Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\HyunSeung\Documents\AR_Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.115 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1116ms)
+		BeginReloadAssembly (212ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (133ms)
+		EndReloadAssembly (811ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (253ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (387ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (241ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
+Unloading 3581 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (124.8 KB). Loaded Objects now: 4347.
+Memory consumption went from 145.3 MB to 145.2 MB.
+Total: 2.612600 ms (FindLiveObjects: 0.272800 ms CreateObjectMapping: 0.079600 ms MarkObjects: 2.152000 ms  DeleteObjects: 0.107400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 579750.848085 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1036.wav
+  artifactKey: Guid(84ee1f63e62794ce592a506085b8dd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1036.wav using Guid(84ee1f63e62794ce592a506085b8dd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff9bb383d6fc555c6f0ed4a78640678b') in 0.098270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1071.wav
+  artifactKey: Guid(de03c730edc7c4c48a1bc14689c8e68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1071.wav using Guid(de03c730edc7c4c48a1bc14689c8e68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede550bcc10b05ed11e05ebbbb55d8ea') in 0.011060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1053.wav
+  artifactKey: Guid(fadc015731df949d8a63073eac5da671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1053.wav using Guid(fadc015731df949d8a63073eac5da671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef2d7b0be163cb8bcf7afae7682fff8') in 0.010440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1065.wav
+  artifactKey: Guid(41b76e0e711aa4c63822bbd4e4ca4872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1065.wav using Guid(41b76e0e711aa4c63822bbd4e4ca4872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a0d5e06c9d104ebed2fc1c41af3faa') in 0.010115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1055.wav
+  artifactKey: Guid(0d3efb3f6e6414a43bfcbaecd788f578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1055.wav using Guid(0d3efb3f6e6414a43bfcbaecd788f578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a5396aeebabbc0ca13850b5ffd8c9ab') in 0.009889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1066.wav
+  artifactKey: Guid(f52559e4d38db4bf9992ceea679af8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1066.wav using Guid(f52559e4d38db4bf9992ceea679af8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54a3023f52a11eeec70a1b613fa30961') in 0.010386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.579725 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1084.wav
+  artifactKey: Guid(d3029239f552947acb50fb23db248fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1084.wav using Guid(d3029239f552947acb50fb23db248fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c36f8b46c3a5345eac3f68a6c3eed74') in 0.013002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1094.wav
+  artifactKey: Guid(60e04cb188aff4081a59ce70a1ff20c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1094.wav using Guid(60e04cb188aff4081a59ce70a1ff20c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '756e44e70dc07257f4ff12910bb47b4a') in 0.014290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1101.wav
+  artifactKey: Guid(93544ae23f04c47b682e4c22db4335b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1101.wav using Guid(93544ae23f04c47b682e4c22db4335b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '920f4bd09bfbeee6287172a43557babf') in 0.009982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1091.wav
+  artifactKey: Guid(c0cc9bb81e32248d7b64b27359c13a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1091.wav using Guid(c0cc9bb81e32248d7b64b27359c13a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9509e8c45969b8cab8be98124397970b') in 0.009674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1117.wav
+  artifactKey: Guid(2c73740b2efca45b1a4525f7a0f4f361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1117.wav using Guid(2c73740b2efca45b1a4525f7a0f4f361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce47649482c47a8353395a6f2c42205c') in 0.011148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1128.wav
+  artifactKey: Guid(58beb19e57554460390a5a3734fd19f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1128.wav using Guid(58beb19e57554460390a5a3734fd19f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '499e35c21754f1fb0f43124884e00fa7') in 0.010505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1089.wav
+  artifactKey: Guid(b666493d183324b72a5d59acbce44db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1089.wav using Guid(b666493d183324b72a5d59acbce44db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d040114715f695c6585e4a4458abca') in 0.010623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1095.wav
+  artifactKey: Guid(8b022f05317f74c7384d83d079aa4428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1095.wav using Guid(8b022f05317f74c7384d83d079aa4428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79f0c95413775971bcfc3e097ebd02ea') in 0.009307 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

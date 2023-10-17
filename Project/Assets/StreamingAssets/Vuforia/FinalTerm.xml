@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="05e5efd86fb6fbc0ce019e4813d8f230" size="1.000000 0.792120" />
+    <ImageTarget name="bedroom-6290104_1280" size="1.000000 1.189591" />
+    <ImageTarget name="bedroom-5646321_1280" size="1.000000 0.666406" />
+    <ImageTarget name="entrepreneur-593378_640" size="1.000000 0.667188" />
+  </Tracking>
+</QCARConfig>
